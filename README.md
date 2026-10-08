@@ -34,15 +34,15 @@ Show a "Loading..." state on the pages, and point a free uptime pinger at `/heal
 
 ## Endpoints
 
-| Endpoint | Replaces in the frontend | Used by |
-|---|---|---|
-| `GET /brands` | `brands` object (loop) | `catalogue.html` |
-| `GET /brands?ads=true` | `brandAds` | homepage banners in `main.js` |
-| `GET /brands/{name or slug}` | `brands[name]` | `brand-page.js`, `more-info.js` |
-| `GET /products` | `products` object | `home-products.js` |
+| Endpoint                             | Replaces in the frontend      | Used by                                            |
+| ------------------------------------ | ----------------------------- | -------------------------------------------------- |
+| `GET /brands`                        | `brands` object (loop)        | `catalogue.html`                                   |
+| `GET /brands?ads=true`               | `brandAds`                    | homepage banners in `main.js`                      |
+| `GET /brands/{name or slug}`         | `brands[name]`                | `brand-page.js`, `more-info.js`                    |
+| `GET /products`                      | `products` object             | `home-products.js`                                 |
 | `GET /products?brand={name or slug}` | filtering `products` by brand | `brand-page.js`, "More by brand" in `more-info.js` |
-| `GET /products?featured=true` | `featuredProducts` | carousel in `main.js` |
-| `GET /products/{id}` | `products[id]` | `more-info.js` |
+| `GET /products?featured=true`        | `featuredProducts`            | carousel in `main.js`                              |
+| `GET /products/{id}`                 | `products[id]`                | `more-info.js`                                     |
 
 Brand lookups accept the display name too, so the existing
 `?brand=Great%20Legacy` links keep working with no HTML changes.
@@ -67,7 +67,7 @@ Two things to know:
 Shared helper, e.g. at the top of `main.js` (or a new `js/api.js` loaded first):
 
 ```js
-const API = "https://YOUR-APP.onrender.com";   // http://127.0.0.1:8000 locally
+const API = "https://YOUR-APP.onrender.com"; // http://127.0.0.1:8000 locally
 
 async function api(path) {
   const res = await fetch(API + path);
@@ -76,14 +76,14 @@ async function api(path) {
 }
 ```
 
-| File | Change |
-|---|---|
-| `brand-page.js` | `brand = await api("/brands/" + encodeURIComponent(brandName))`, `brandProducts = await api("/products?brand=" + encodeURIComponent(brandName))`. The loop gets `product.id` directly instead of `[id, product]`. |
-| `more-info.js` | `product = await api("/products/" + productId)`, `brand = await api("/brands/" + encodeURIComponent(product.brand))`, related = `/products?brand=...` filtered with `p.id !== productId`. |
-| `home-products.js` | `const products = await api("/products")`, then group by `product.brand` as it does now. It uses `id` and `product`, so wrap each item as `{id: p.id, product: p}`. |
-| `catalogue.html` (inline script) | loop over `await api("/brands")` instead of `Object.entries(brands)`. |
-| `main.js` carousel | `const featuredProducts = await api("/products?featured=true")`, then build the slides and start any autoplay AFTER it resolves. |
-| `main.js` brand ads | `const brandAds = await api("/brands?ads=true")`. Each ad is a brand: link is `ad.page`, image `ad.adImage`, title `ad.adTitle`, subtitle `ad.adSubtitle`. |
+| File                             | Change                                                                                                                                                                                                            |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `brand-page.js`                  | `brand = await api("/brands/" + encodeURIComponent(brandName))`, `brandProducts = await api("/products?brand=" + encodeURIComponent(brandName))`. The loop gets `product.id` directly instead of `[id, product]`. |
+| `more-info.js`                   | `product = await api("/products/" + productId)`, `brand = await api("/brands/" + encodeURIComponent(product.brand))`, related = `/products?brand=...` filtered with `p.id !== productId`.                         |
+| `home-products.js`               | `const products = await api("/products")`, then group by `product.brand` as it does now. It uses `id` and `product`, so wrap each item as `{id: p.id, product: p}`.                                               |
+| `catalogue.html` (inline script) | loop over `await api("/brands")` instead of `Object.entries(brands)`.                                                                                                                                             |
+| `main.js` carousel               | `const featuredProducts = await api("/products?featured=true")`, then build the slides and start any autoplay AFTER it resolves.                                                                                  |
+| `main.js` brand ads              | `const brandAds = await api("/brands?ads=true")`. Each ad is a brand: link is `ad.page`, image `ad.adImage`, title `ad.adTitle`, subtitle `ad.adSubtitle`.                                                        |
 
 Then delete the `<script src="products.js">` tags. Wrap each file's logic in an
 `async function init() { ... } init();` and add try/catch with a visible error state.
@@ -100,3 +100,5 @@ Until admin endpoints exist: edit `products.js`, run
 
 `legacy-jorst` is ₦28,000 in the old carousel and ₦29,000 in the product list.
 The seed keeps the product-list price and prints a warning. Check the real price.
+
+# beelinx-api
