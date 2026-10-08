@@ -1,0 +1,257 @@
+{
+  "featuredProducts": [
+    {
+      "productId": "legacy-jorst",
+      "name": "LEGACY JORST",
+      "price": "₦28,000",
+      "image": "../images-fsn/great-legacy/IMG_3445.PNG",
+      "brand": "Great Legacy",
+      "collection": "GREAT LEGACY COLLECTION",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "description": "The LEGACY JORST is a modern take on classic denim. Cut from durable, mid-weight jean fabric with a relaxed fit, it’s built for everyday wear without losing its edge. Subtle detailing and a structured silhouette give it a standout look that works effortlessly with tees, hoodies, or layered fits."
+    },
+    {
+      "productId": "legacy-skull-cap",
+      "name": "LEGACY SKULL CAP",
+      "price": "₦16,000",
+      "image": "../images-fsn/great-legacy/IMG_3720.PNG",
+      "brand": "Great Legacy",
+      "collection": "NEW GREAT LEGACY COLLECTION",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "description": "Built for everyday presence, the Legacy Skull Cap blends minimal design with timeless identity. Crafted from soft, durable knit, it delivers warmth, comfort, and a clean silhouette that fits effortlessly into any look."
+    },
+    {
+      "productId": "5 ★ TRUCKER",
+      "name": "5 ★ TRUCKER",
+      "price": "₦15,750",
+      "image": "../images-fsn/r4ndom-drip/IMG_0776.PNG",
+      "brand": "R4ndom Drip",
+      "collection": "NEW R4NDOM DRIP COLLECTION",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "description": "The 5 ⭐ TRUCKER combines a classic trucker silhouette with a bold streetwear edge. Designed for everyday wear, it features a structured front, breathable mesh backing, and an adjustable fit for easy comfort. A versatile finishing piece that adds character to any casual look."
+    },
+    {
+      "productId": "legacy-crop-tee",
+      "name": "LEGACY CROP TEE",
+      "price": "₦22,000",
+      "image": "../images-fsn/great-legacy/IMG_3467.PNG",
+      "brand": "Great Legacy",
+      "collection": "NEW GREAT LEGACY COLLECTION",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "description": "The LEGACY CROP TEE brings a clean, contemporary edge to the Great Legacy collection. Designed with a cropped silhouette and bold character, it’s an easy statement piece that pairs effortlessly with relaxed trousers, denim, or layered fits."
+    },
+    {
+      "productId": "5 ★ TEE",
+      "name": "5 ★ TEE",
+      "price": "₦31,500",
+      "image": "../images-fsn/r4ndom-drip/IMG_0872.PNG",
+      "brand": "R4ndom Drip",
+      "collection": "NEW R4NDOM DRIP COLLECTION",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "description": "The 5 ⭐ TEE brings a clean, contemporary edge to the R4ndom Drip collection. Designed with a cropped silhouette and bold character, it’s an easy statement piece that pairs effortlessly with relaxed trousers, denim, or layered fits."
+    }
+  ],
+  "brandAds": [
+    {
+      "brand": "Great Legacy",
+      "image": "../images-fsn/great-legacy/c118c87f-d7a4-445d-a879-263a853f6a39.jpeg",
+      "title": "GREAT LEGACY",
+      "subtitle": "EXPLORE THE COLLECTION",
+      "alt": "Great Legacy collection"
+    },
+    {
+      "brand": "R4ndom Drip",
+      "image": "../images-fsn/r4ndom-drip/IMG_0765.WEBP",
+      "title": "R4NDOM DRIP",
+      "subtitle": "DISCOVER MORE",
+      "alt": "R4ndom Drip collection"
+    }
+  ],
+  "brands": {
+    "Great Legacy": {
+      "name": "Great Legacy",
+      "logo": "../images-fsn/great-legacy/IMG_0874.JPG",
+      "page": "brandpage-template.html?brand=Great%20Legacy",
+      "website": "https://gtl-great-legacy539.labeld.app/",
+      "slogan": "Elevate your style",
+      "social": {
+        "instagram": "https://instagram.com/_gtl_1",
+        "tiktok": "https://www.tiktok.com/@_gtl_",
+        "twitter": "https://twitter.com/greatlegacy001"
+      }
+    },
+    "R4ndom Drip": {
+      "name": "R4ndom Drip",
+      "logo": "../images-fsn/r4ndom-drip/9533CAA2-6B83-47CC-8D21-D3A46A54F3D0.png",
+      "page": "brandpage-template.html?brand=R4ndom%20Drip",
+      "website": "https://r4ndom-drip.labeld.app/",
+      "slogan": "Dress to Impress",
+      "social": {
+        "instagram": "https://instagram.com/r4ndom.drip",
+        "tiktok": "https://www.tiktok.com/@r4ndom_drip"
+      }
+    }
+  },
+  "products": {
+    "gl-01": {
+      "name": "GREAT LEGACY'S GL-01 SET",
+      "price": "₦29,000",
+      "image": "../images-fsn/great-legacy/IMG_3037.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/"
+    },
+    "legacy-monarch": {
+      "name": "LEGACY MONARCH",
+      "price": "₦31,000",
+      "image": "../images-fsn/great-legacy/4f3cc3b7-99a3-48a6-85ec-13d9f4792fd7.JPG",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-monarch?variant=44525883228271"
+    },
+    "gl-warmer": {
+      "name": "GL - WARMER",
+      "price": "₦23,000",
+      "image": "../images-fsn/great-legacy/IMG_3331.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/gl-warmer?variant=44536435736687"
+    },
+    "after-dark-2": {
+      "name": "AFTER DARK 2",
+      "price": "₦28,000",
+      "image": "../images-fsn/great-legacy/ab1310be-ec08-46ed-bde3-ab78f58d0400.JPG",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/after-dark-2?variant=44341382938735"
+    },
+    "legacy-reaper": {
+      "name": "LEGACY REAPER",
+      "price": "₦26,000",
+      "image": "../images-fsn/great-legacy/IMG_3464.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-reaper?variant=52747046387823"
+    },
+    "gl-edition": {
+      "name": "GL EDITION",
+      "price": "₦29,000",
+      "image": "../images-fsn/great-legacy/2cfd2606-1ed1-4c33-b7b3-959c45aa28fa.jpeg",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/gl-edition?variant=44521678930031"
+    },
+    "legacy-grip-tee": {
+      "name": "LEGACY GRIP TEE",
+      "price": "₦18,000",
+      "image": "../images-fsn/great-legacy/f91e7c10-6fdd-483a-a056-0365d3a12a7b.JPG",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-grip-tee?variant=44537614041199"
+    },
+    "gl-made-in-ikoyi": {
+      "name": "GL-MADE IN IKOYI",
+      "price": "₦29,000",
+      "image": "../images-fsn/great-legacy/faac6dac-080b-4523-8b73-0bfcaa465faf.JPG",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/gl-made-in-ikoyi?variant=44508133326959"
+    },
+    "legacy-skull-cap": {
+      "name": "LEGACY SKULL CAP",
+      "price": "₦16,000",
+      "image": "../images-fsn/great-legacy/IMG_3038.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-skull-capp?variant=44521672474735"
+    },
+    "gl-01-jogger": {
+      "name": "GL-01 JOGGER",
+      "price": "₦26,000",
+      "image": "../images-fsn/great-legacy/IMG_3034.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/gl-01-jogger?variant=44092181905519"
+    },
+    "gl-apex-tee": {
+      "name": "GL APEX TEE",
+      "price": "₦31,000",
+      "image": "../images-fsn/great-legacy/IMG_3035.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/untitled-jan29_18-57?variant=44202474242159"
+    },
+    "outlaw": {
+      "name": "OUTLAW",
+      "price": "₦25,000",
+      "image": "../images-fsn/great-legacy/IMG_3036.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/b?variant=44300219547759"
+    },
+    "gl-x-zeno": {
+      "name": "GL x ZENO",
+      "price": "₦31,000",
+      "image": "../images-fsn/great-legacy/IMG_3039.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/copy-gl-x-zeno?variant=44530307989615"
+    },
+    "legacy-jorst": {
+      "name": "LEGACY JORST",
+      "price": "₦29,000",
+      "image": "../images-fsn/great-legacy/IMG_3329.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-jorst?variant=44552514338927"
+    },
+    "legacy-denim": {
+      "name": "LEGACY DENIM",
+      "price": "₦30,000",
+      "image": "../images-fsn/great-legacy/IMG_3330.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-denim?variant=44530914394223"
+    },
+    "legacy-crop-tee": {
+      "name": "LEGACY CROP TEE",
+      "price": "₦22,000",
+      "image": "../images-fsn/great-legacy/IMG_3332.WEBP",
+      "brand": "Great Legacy",
+      "brandLink": "brandpage-template.html?brand=Great%20Legacy",
+      "orderLink": "https://greatlegacy0.myshopify.com/products/legacy-crop-tee?variant=44510958714991"
+    },
+    "5 ★ TEE": {
+      "name": "5 ★ TEE",
+      "price": "₦31,500",
+      "image": "../images-fsn/r4ndom-drip/IMG_0770.WEBP",
+      "brand": "R4ndom Drip",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "orderLink": "https://r4ndom-drip.labeld.app/brands/WA3gmm8SmgXXDX1R7hDYzBqfHfy1/drops/ofad7BH6N2pTjXyRzfd0"
+    },
+    "5 ★ TRUCKER": {
+      "name": "5 ★ TRUCKER",
+      "price": "₦15,750",
+      "image": "../images-fsn/r4ndom-drip/IMG_0771.WEBP",
+      "brand": "R4ndom Drip",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "orderLink": "https://r4ndom-drip.labeld.app/brands/WA3gmm8SmgXXDX1R7hDYzBqfHfy1/drops/ewB8FCwq6QCQngKMCgYx"
+    },
+    "RD CLASSIC TEE": {
+      "name": "RD CLASSIC TEE",
+      "price": "₦31,503",
+      "image": "../images-fsn/r4ndom-drip/EB6EED05-E1FA-4BBD-806D-5BD248E2EE47.png",
+      "brand": "R4ndom Drip",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "orderLink": "https://r4ndom-drip.labeld.app/brands/WA3gmm8SmgXXDX1R7hDYzBqfHfy1/drops/VVacQQi5z0KrZ2dtIwgY"
+    },
+    "5 ★ TANK": {
+      "name": "5 ★ TANK",
+      "price": "₦36,750",
+      "image": "../images-fsn/r4ndom-drip/IMG_0871.JPG",
+      "brand": "R4ndom Drip",
+      "brandLink": "brandpage-template.html?brand=R4ndom%20Drip",
+      "orderLink": "https://r4ndom-drip.labeld.app/brands/WA3gmm8SmgXXDX1R7hDYzBqfHfy1/drops/gZE9JDfI7dL1qoDsY6Zx"
+    }
+  }
+}
